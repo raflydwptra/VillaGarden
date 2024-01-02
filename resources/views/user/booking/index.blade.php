@@ -32,7 +32,7 @@
 }
 
 .main_bg{
-    background-image: url('Gp/assets/img/background.jpg');
+
     background-color: black;
     height: 800px;
     display: flex;
@@ -179,11 +179,11 @@
                     <span class="color-font">How many people ?</span>
                     <select name="people" value="{{ old('people') }}" id="people" class="form-control @error('people') is-invalid @enderror" required>
                         <option value=""><---People---></option>
-                        <option value="1">1 People</option>
-                        <option value="2">2 People</option>
-                        <option value="3">3 People</option>
-                        <option value="4">4 People</option>
-                        <option value="5+">5+ People</option>
+                        <option value="1 - 10">1 - 10 People</option>
+                        <option value="1 - 20">1 - 20 People</option>
+                        <option value="1 - 30">1 - 30 People</option>
+                        <option value="1 - 40">1 - 40 People</option>
+                        <option value="1 - 50">1 - 50 People</option>
                     </select>
                     <!-- <---this is the select option--->
                 </div>
@@ -219,7 +219,8 @@
                 </div>
                 <div id="submit">
                     <button type="submit" class="btn btn-primary" onclick="validateForm()">SUBMIT</button>
-                    <p><a href="/">ADMIN</a></p>
+                    <p><a href="/">Home</a></p>
+                </div>
                 </div>
             </form>
         </div>

@@ -48,7 +48,7 @@
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-lg-between">
             <!-- Foto Logo -->
-            <a href="index.html" class="logo me-auto me-lg-0"><img src="Gp\assets\img\LogoVilla.png" alt=""
+            <a href="index.html" class="logo me-auto me-lg-0"><img src="Gp\assets\img\LogoVilla.png" alt=''
                     class="img-fluid"></a>
 
                     <!-- .navbar -->
@@ -140,8 +140,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="row">
-                    <div class="image col-lg-6" style='background-image: url("Gp/assets/img/afteredit.png");'
-                        data-aos="fade-right"></div>
+                    <div class="image col-lg-6" style='background-image: url("{{ asset("Gp/assets/img/afteredit.png") }}");' data-aos="fade-right"></div>
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                         <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
                             <i class="bx bx-credit-card"></i>
