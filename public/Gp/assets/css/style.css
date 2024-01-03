@@ -394,7 +394,7 @@ h6 {
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2023/08/18/5e6813f3-220a-405a-a4ef-2384a88c6077-1692345380562-9ce29770fbdbf76b524939318ee7b135.jpg") top center;
+  background: url(../img/bagus.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -978,7 +978,7 @@ section {
 }
 
 .counts .image {
-    background: url("../img/afteredit.png") center center no-repeat;
+    background: url("../img/bagus2.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
